@@ -1,4 +1,4 @@
-package com.aabiro.collections.java.utils;
+package utils;
 
 import java.util.List;
 //Java includes this as a Doubly LinkedList implementation!
