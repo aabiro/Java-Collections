@@ -21,7 +21,7 @@ public class App {
                System.out.println("Index found, " + i);
 
         //invalid index - out of range must double size and add all data to new larger array
-        nums[5] = 10;
+        //nums[5] = 10;
 
     }
 }
