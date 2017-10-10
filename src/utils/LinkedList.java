@@ -24,5 +24,6 @@ public class LinkedList {
 
         System.out.println( list.get(1) ); //not that fast
         System.out.println( list.isEmpty() );
+        System.out.println( list.size() );
     }
 }

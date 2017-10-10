@@ -22,6 +22,6 @@ public class App {
 
         //invalid index - out of range must double size and add all data to new larger array
         //nums[5] = 10;
-
+        System.out.println(nums.length); //Arrays use LENGTH! here prints 5 for 0,1,2,3,4 indexes!
     }
 }

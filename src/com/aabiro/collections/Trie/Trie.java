@@ -97,7 +97,7 @@ public class Trie {
         String lcp = "";
 
         System.out.println("headed in");
-        while (countNumOfChildren(trieNode) == 1 && !trieNode.isLeaf()) {
+        while ( countNumOfChildren(trieNode) == 1 && !trieNode.isLeaf() ) {
             trieNode = trieNode.getChild(indexOfSingleChild);
             lcp = lcp + String.valueOf((char) (indexOfSingleChild + 'a'));
             System.out.println("inside");

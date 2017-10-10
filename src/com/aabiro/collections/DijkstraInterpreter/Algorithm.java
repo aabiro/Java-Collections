@@ -3,6 +3,8 @@ package com.aabiro.collections.DijkstraInterpreter;
 //import com.aabiro.collections.StackLinkedList.Stack; //could use this but not now
 import java.util.Stack;
 
+//used to mathematical expressions to stack and compute
+
 public class Algorithm {
 
     private Stack<String> operationStack;
